@@ -12,7 +12,7 @@ if ser>=1 and ser <=8:
         j=i-1
         while j>=0 and key <ls[j]:
             ls[j+1]=ls[j]
-            j-=1
+            j-=4
             ls[j+1]=key
     print("the selection sort of the elements: ",ls)
 else:
